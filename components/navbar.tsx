@@ -1,6 +1,6 @@
 "use client";
 
-import { Code2, Dumbbell, ShieldPlus } from "lucide-react";
+import { Code2, ShieldPlus } from "lucide-react";
 import Link from "next/link";
 import MainNav from "./main-nav";
 import { ModeToggle } from "./mode-toggle";
