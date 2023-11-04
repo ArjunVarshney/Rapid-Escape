@@ -34,11 +34,16 @@ export default function Home() {
             poster="/bg-earth.mp4"
             className="absolute -z-10 h-full w-full top-0 left-0 object-cover"
          >
-            <source src="/bg-earth.mp4" type="video/mp4" />
+            <source src="/bg-earth.webm" type="video/mp4" />
          </video>
          <div className="container my-5">
             <div className="h-[80vh] flex flex-col justify-center">
-               <h1 className="text-5xl font-bold py-10 text-white">
+               <h1
+                  className="text-5xl font-bold py-10 text-white"
+                  style={{
+                     textShadow: "0px 0px 25px black",
+                  }}
+               >
                   Rapid Escape
                </h1>
                <div className="flex gap-5 items-center justify-start flex-wrap pb-10">
