@@ -9,7 +9,7 @@ import ToastProvider from "@/providers/toast-provider";
 const font = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-   title: "Body Works",
+   title: "Rapid Escape",
    description: "Exercise website for everyone",
 };
 
