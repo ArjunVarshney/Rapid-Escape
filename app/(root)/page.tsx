@@ -43,7 +43,7 @@ export default function Home() {
                </h1>
                <div className="flex gap-5 items-center justify-start flex-wrap pb-10">
                   {cardContent.map((content) => {
-                     return <HomeCard {...content} />;
+                     return <HomeCard {...content} key={content.title} />;
                   })}
                </div>
                <div className="flex gap-2">
